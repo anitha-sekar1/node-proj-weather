@@ -18,7 +18,7 @@ const weatherCall = ( latitude, longtitude, placeName , callBack) => {
             
              const data = {
                  placeName: placeName,
-                summary:  `${dailyData.summary} Currently the temperature is ${currWeather.temperature} degrees , the precipitation probability is ${currWeather.precipProbability}%`};
+                summary:  `${dailyData.summary} Currently the temperature is ${currWeather.temperature} degrees , the precipitation probability is ${currWeather.precipProbability}%, Visibility is ${currWeather.visibility}`};
             //     temp : currWeather.temperature,
             //     precipProbability: currWeather.precipProbability
             // };
