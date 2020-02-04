@@ -11,7 +11,7 @@
       if(location){
         msg1.textContent = 'Loading ....';
         msg2.textContent = '';
-      fetch(`http://localhost:3000/weather?address=${location}`)
+      fetch(`/weather?address=${location}`)
     .then((result) => {
         return result.json();
     })
